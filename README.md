@@ -1,0 +1,2 @@
+# otakumandu
+SE project 
