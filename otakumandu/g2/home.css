@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.logos{
+    height: 100px;
+    background-color:rgba(248, 244, 244, 0.4);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(1px);
+    border-bottom: 2px solid rgba(255, 255, 255, 2);
+}
+
+.logos::before{
+    background: linear-gradient(90deg, transparent, rgba(236, 230, 230, 0.4),transparent);
+    transition: .5s;
+}
+
+.logos:hover::before{
+    left: 100%;
+}
+
+.logo{
+    color: red;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+   
+}
+
+.logo:hover{
+    color: black;
+}
+.navbar{
+    font-family: 'poppins';
+    font-size: 20px;
+    float: right;
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+padding:15px
+}
+
+.navbar li a{
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    padding: 15px;
+}
+.navbar li a:hover{
+    color:black;
+}
+
+.box{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding:2px;
+}
